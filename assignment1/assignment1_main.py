@@ -1,3 +1,7 @@
+# Assignment1
+# Konkanok Umnartyuttithum
+# 6642003026
+
 # Part 1: 20 students's ages, sum and average
 sum = 0
 
