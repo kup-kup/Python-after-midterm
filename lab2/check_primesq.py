@@ -1,3 +1,4 @@
+#lab2 assignment3
 end = int(input("Enter Your Number: "))
 num = 1
 

@@ -1,3 +1,7 @@
+#Konkanok Umnartyuttithum
+#6642003026
+
+#lab2 assignment1
 p3, p2, p1, res = 1, 1, 2, 0
 
 in1 = int(input("Enter Your Number: "))

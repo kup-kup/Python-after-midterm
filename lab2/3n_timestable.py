@@ -1,3 +1,4 @@
+#lab2 assignment2
 i = j = k = 1
 
 while (i <= 12):
