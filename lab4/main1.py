@@ -248,7 +248,14 @@ SECTION 3: I/O
 # # Close opened file
 # fo.close()
 
+# f = open("foo2.txt", "w")
+# f.write("This is line 1")
+# f.close()
+
+# f = open("foo2.txt", "r")
+# print(f.read(-1))
+# f.close()
+
 f = open("foo2.txt", "a")
-# f. write("alksdjlkajhsdlkjsahd")
-f.write("line2")
+f.write("\nAnd this is line 2")
 f.close()
