@@ -1,10 +1,6 @@
-def foo(l):
-    l.append(4)
-    # print(l)
-    # l[1] = 6
-    return
+# def printme(str):
+#     print(str)
+#     return
 
-var = 10
-l = [10, 0, 3]
-foo(l)
-print(l)
+# printme("This is first call")
+# printme("Again second")
