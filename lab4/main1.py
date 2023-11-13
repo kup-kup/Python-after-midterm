@@ -131,3 +131,124 @@
 # printinfo( 70, 60, 50 )
 
 # 4
+
+# # Function definition is here
+# def sum( arg1, arg2 ):
+#    # Add both the parameters and return them."
+#    total = arg1 + arg2
+#    print ("Inside the function : ", total)
+#    return total
+
+# # Now you can call sum function
+# total = sum( 10, 20 )
+# print ("Outside the function : ", total )
+
+# 5.1
+
+# # Function definition is here
+# sum = lambda arg1, arg2: arg1 + arg2
+
+# # Now you can call sum as a function
+# print ("Value of total : ", sum( 10, 20 ))
+# print ("Value of total : ", sum( 20, 20 ))
+
+# 5.2
+
+# f = lambda x: x + 1
+# print(f(2))
+# print(f(8))
+
+# 5.3
+
+# g = lambda a, b: (a + b) / 2
+# print(g(3, 5))
+# print(g(10, 33))
+
+# 5.4
+
+# numbers = [2, 15, 5, 7, 10, 28, 30]
+# print(list(filter(lambda x: x % 5 == 0, numbers)))
+# print(list(map(lambda x: x * 2, numbers)))
+
+# 5.5
+
+# numbers = [2, 15, 5, 7, 10, 28, 30]
+# is_even = lambda n : n % 2 == 0
+# print(list(map(is_even, numbers)))
+
+# 5.6
+
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+# doubled = map(lambda n: n * 2, numbers)
+# print(list(doubled))
+
+# 6
+
+# total = 0   # This is global variable.
+# # Function definition is here
+# def sum( arg1, arg2 ):
+#    # Add both the parameters and return them."
+#    total = arg1 + arg2; # Here total is local variable.
+#    print ("Inside the function local total : ", total)
+#    return total
+
+# # Now you can call sum function
+# sum( 10, 20 )
+# print ("Outside the function global total : ", total )
+
+# 7.1
+
+# def count_vowel(str):
+#     vowel = 0
+#     for c in str:
+#         if c in ('A', 'E', 'I', 'O', 'U', 'a', 'e', 'i', 'o', 'u'):
+#             vowel += 1
+#     return vowel
+    
+# print(count_vowel("Hello world, today is a good day"))
+
+# 7.2
+
+# def area(width, height):
+#     c = width * height
+#     return c
+
+# print(area(6, 14.7))
+# print(area(9, 6.4))
+
+'''
+SECTION 3: I/O
+'''
+
+# 1
+
+# # Open a file
+# fo = open("foo.txt", "wb")
+# print ("Name of the file: ", fo.name)
+# print ("Closed or not : ", fo.closed)
+# print ("Opening mode : ", fo.mode)
+# fo.close()
+
+# 2
+
+# # Open a file
+# fo = open("foo.txt", "w")
+# fo.write( "Python is a great language.\nYeah its great!!\n")
+
+# # Close opend file
+# fo.close()
+
+# 3
+
+# # Open a file
+# fo = open("foo.txt", "r+")
+# str = fo.read(10)
+# print ("Read String is : ", str)
+
+# # Close opened file
+# fo.close()
+
+f = open("foo2.txt", "a")
+# f. write("alksdjlkajhsdlkjsahd")
+f.write("line2")
+f.close()
