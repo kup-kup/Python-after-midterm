@@ -248,14 +248,44 @@ SECTION 3: I/O
 # # Close opened file
 # fo.close()
 
+## w mode
+
 # f = open("foo2.txt", "w")
 # f.write("This is line 1")
 # f.close()
+
+## r mode
 
 # f = open("foo2.txt", "r")
 # print(f.read(-1))
 # f.close()
 
-f = open("foo2.txt", "a")
-f.write("\nAnd this is line 2")
+## a mode
+
+# f = open("foo2.txt", "a")
+# f.write("\nAnd this is line 2")
+# f.close()
+
+# w+ mode
+
+# f = open("foo3.txt", "w+")
+# f.write("This is line 1 with w+ mode")
+# f.seek(0)  # Move the pointer to the beginning
+# print(f.read(-1))
+# f.close()
+
+# r+ mode
+
+# f = open("foo3.txt", "r+")
+# f.write("{taken by r+}")
+# f.seek(0)  # Move the pointer to the beginning
+# print(f.read(-1))
+# f.close()
+
+# a+ mode
+
+f = open("foo3.txt", "a+")
+f.write("\nLine 2 with a+ mode")
+f.seek(0)  # Move the pointer to the beginning
+print(f.read(-1))
 f.close()

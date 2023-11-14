@@ -1,0 +1,2 @@
+{taken by r+}1 with w+ modeLine 2 with a+ mode
+Line 2 with a+ mode
